@@ -76,6 +76,8 @@ python app.py 8080
 
 #### API エンドポイント
 
+FastAPIで実装をしているため、http://localhost:8000/docs にアクセスすれば、OpenAPIの確認ができます。
+
 **POST /search**
 
 データベース内の類似画像を検索するために画像ファイルをアップロードします。
